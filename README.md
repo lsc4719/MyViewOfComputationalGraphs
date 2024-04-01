@@ -14,7 +14,7 @@ variables and functions form a connected directed-acyclic graph with unique sink
 | in-degree=0 boxes | are input(inpendendent) nodes(variables). |
 | in-degree>0 boxes | are dependent varaiables. |
 | blue box | is the unique output variable. |
-| yellow boxes | are variables to store gradients. |
+| yellow boxes | are node labels for variables to store gradients. |
 | circles | are functions. |
 | arrows | mean input/output relationship between variables and functions. |
 
