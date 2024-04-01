@@ -31,5 +31,5 @@ variables and functions form a directed-acyclic graph with single sink output va
 
 ### ref
 
-zero-to-hero, Karpathy https://karpathy.ai/zero-to-hero.html
+zero-to-hero, Karpathy https://karpathy.ai/zero-to-hero.html  
 deep learning from scratch 1 https://www.yes24.com/Product/Goods/34970929
