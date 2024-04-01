@@ -8,7 +8,7 @@ A computational graph is a data structure with states denoted by abow diagram.
 
 #### bolts and nuts
 variables and functions form a connected directed-acyclic graph with unique sink output variable node.  
-If we treat variables as tensors, then this datastructure is also includes vectorization.  
+If we treat variables as tensors, then this datastructure includes not only scalars but also includes vectorization.  
 
 | item | description |
 | - | - |
