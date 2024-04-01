@@ -24,7 +24,7 @@ variables and functions form a directed-acyclic graph with single sink output va
 | initialize inputs | |
 | initialize gradients | |
 | forward | calculate dependent variables by calculating functions in topological order |
-| backward | calculate gradients of variables w.r.t. output-variable in reverse-topological order using chain-rule from output variable's gradient(=1 always)|
+| backward | calculate gradients of output-variable in reverse-topological order using chain-rule from output variable's gradient(=1 always)|
 | update | update some variables based on gradients (ex. variable = variable - learning_rate * gradient) |
 | reversed-mode autodiff | apply forward and then backward sequentially |
 
