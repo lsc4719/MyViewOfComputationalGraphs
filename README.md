@@ -7,6 +7,8 @@
 A computational graph is a data structure with states denoted by abow diagram.  
 
 #### bolts and nuts
+variables and functions form a directed-acyclic graph with single sink output variable node.
+
 | item | description |
 | - | - |
 | in-degree=0 boxes | are input(inpendendent) nodes(variables). |
@@ -20,7 +22,7 @@ A computational graph is a data structure with states denoted by abow diagram.
 | operation | note |
 | - | - |
 | initialize inputs | |
-| initialized gradients | |
+| initialize gradients | |
 | forward | calculate dependent variables by calculating functions in topological order |
 | backward | calculate gradients of variables w.r.t. output-variable in reverse-topological order using chain-rule from output variable's gradient(=1 always)|
 | update | update some variables based on gradients (ex. variable = variable - learning_rate * gradient) |
