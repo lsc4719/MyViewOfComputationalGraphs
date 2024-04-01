@@ -7,7 +7,8 @@
 A computational graph is a data structure with states denoted by abow diagram.  
 
 #### bolts and nuts
-variables and functions form a connected directed-acyclic graph with unique sink output variable node.
+variables and functions form a connected directed-acyclic graph with unique sink output variable node.  
+If we treat variables as tensors, then this datastructure is also includes vectorization.  
 
 | item | description |
 | - | - |
@@ -27,8 +28,6 @@ variables and functions form a connected directed-acyclic graph with unique sink
 | backward | calculate gradients of output-variable w.r.t. variables in reverse-topological order using chain-rule from output variable's gradient(=1 always)|
 | update | update some variables based on gradients (ex. variable = variable - learning_rate * gradient) |
 | reversed-mode autodiff | apply forward and then backward sequentially |
-
-### vectorization
 
 ### ref
 
