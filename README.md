@@ -28,6 +28,7 @@ variables and functions form a connected directed-acyclic graph with unique sink
 | update | update some variables based on gradients (ex. variable = variable - learning_rate * gradient) |
 | reversed-mode autodiff | apply forward and then backward sequentially |
 
+### vectorization
 
 ### ref
 
