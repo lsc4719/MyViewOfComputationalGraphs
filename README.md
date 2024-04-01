@@ -7,7 +7,7 @@
 A computational graph is a data structure with states denoted by abow diagram.  
 
 #### bolts and nuts
-variables and functions form a directed-acyclic graph with single sink output variable node.
+variables and functions form a connected directed-acyclic graph with unique sink output variable node.
 
 | item | description |
 | - | - |
