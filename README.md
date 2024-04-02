@@ -34,15 +34,20 @@ If we treat variables as tensors, then this datastructure includes not only scal
 ##### neural network diagram
 ![neural network diagram of perceptron](https://github.com/lsc4719/MyViewOfComputationalGraphs/blob/main/neural-network-perceptron.drawio.svg)
 
-##### computational graph diagram
+##### computational graph diagram (scalar level)
 ![computational graph diagram of perceptron](https://github.com/lsc4719/MyViewOfComputationalGraphs/blob/main/perceptron.drawio.svg)
 
-#### example: MLP
+#### example: MLP (w/o loss)
 
 ##### neural network diagram
 ![neural network diagram of mlp](https://github.com/lsc4719/MyViewOfComputationalGraphs/blob/main/neural-network-mlp.drawio.svg)
 
-#### example: vectorization
+##### computational graph diagram (vectorization)
+![computational graph diagram of mlp](https://github.com/lsc4719/MyViewOfComputationalGraphs/blob/main/mlp-vectorization.drawio.svg)
+
+#### example: MLP (w/ loss)
+
+##### computational graph diagram (vectorzation)
 
 
 ### ref
