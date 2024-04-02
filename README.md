@@ -42,11 +42,8 @@ If we treat variables as tensors, then this datastructure includes not only scal
 ##### neural network diagram
 ![neural network diagram of mlp](https://github.com/lsc4719/MyViewOfComputationalGraphs/blob/main/neural-network-mlp.drawio.svg)
  
-##### computational graph diagram (vectorization) (w/o loss)
-![computational graph diagram of mlp without loss](https://github.com/lsc4719/MyViewOfComputationalGraphs/blob/main/mlp-vectorization.drawio.svg)
-
 ##### computational graph diagram (vectorzation) (w/ loss)
-![computational graph diagram of mlp with loss](https://github.com/lsc4719/MyViewOfComputationalGraphs/blob/main/mlp-with-loss-vectorization.drawio.svg)
+![computational graph diagram of mlp with loss](https://github.com/lsc4719/MyViewOfComputationalGraphs/blob/abe4c04e0c052600a8ed44264cfd253d06d3e2b9/mlp-with-loss-vectorization.drawio.svg)
 
 
 ### ref
