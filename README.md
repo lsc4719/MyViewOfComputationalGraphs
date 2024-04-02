@@ -28,6 +28,7 @@ If we treat variables as tensors, then this datastructure includes not only scal
 | backward | calculate gradients of output-variable w.r.t. variables in reverse-topological order using chain-rule from output variable's gradient(=1 always)|
 | update | update some variables based on gradients (ex. variable = variable - learning_rate * gradient) |
 | reversed-mode autodiff | apply forward and then backward sequentially |
+| **minimize output variable w.r.t. some input variables** | apply reverse-mode autodiff and then update sequentially serveral times until output variable became sufficiently small. |
 
 #### example: percpetron
 
