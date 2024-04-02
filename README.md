@@ -6,6 +6,11 @@
 
 A computational graph is a data structure with states denoted by abow diagram.  
 
+#### background
+
+I think basically, we could reduce some problem into an optimization problem with data.  
+A computational graph in deep learning is an implmentation of that optimization problem.  
+
 #### bolts and nuts
 variables and functions form a connected directed-acyclic graph with unique sink output variable node.  
 If we treat variables as tensors, then this datastructure includes not only scalars but also includes vectorization.  
