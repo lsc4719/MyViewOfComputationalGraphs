@@ -31,11 +31,20 @@ If we treat variables as tensors, then this datastructure includes not only scal
 
 #### example: percpetron
 
+##### neural network diagram
+![neural network diagram of perceptron](https://github.com/lsc4719/MyViewOfComputationalGraphs/blob/main/neural-network-perceptron.drawio.svg)
+
+##### computational graph diagram
+
 #### example: MLP
 
-#### example: vectorization (single batch size)
+##### neural network diagram
+![neural network diagram of mlp](https://github.com/lsc4719/MyViewOfComputationalGraphs/blob/main/neural-network-mlp.drawio.svg)
 
-#### example: vectorization (multiple batch size)
+##### computational graph diagram
+
+#### example: vectorization
+
 
 ### ref
 
