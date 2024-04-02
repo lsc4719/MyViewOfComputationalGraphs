@@ -29,6 +29,14 @@ If we treat variables as tensors, then this datastructure includes not only scal
 | update | update some variables based on gradients (ex. variable = variable - learning_rate * gradient) |
 | reversed-mode autodiff | apply forward and then backward sequentially |
 
+#### example: percpetron
+
+#### example: MLP
+
+#### example: vectorization (single batch size)
+
+#### example: vectorization (multiple batch size)
+
 ### ref
 
 zero-to-hero, Karpathy https://karpathy.ai/zero-to-hero.html  
