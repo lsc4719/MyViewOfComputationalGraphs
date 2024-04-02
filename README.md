@@ -8,7 +8,7 @@ A computational graph is a data structure with states denoted by abow diagram.
 
 #### background
 
-We could always minimize output variable w.r.t. some input variables of a computation graph,  
+We could always minimize output variable w.r.t. some input variables of a computation graph data structure   
 by using reverse-mode autodiff and gradient-descent algorithm.
 
 #### bolts and nuts
