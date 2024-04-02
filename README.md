@@ -43,6 +43,10 @@ If we treat variables as tensors, then this datastructure includes not only scal
 ##### computational graph diagram (w/o loss)
 ![computational graph diagram of perceptron](https://github.com/lsc4719/MyViewOfComputationalGraphs/blob/33c5fbc0aa38a64b4c4a3808615b31f4521024cc/perceptron.drawio.svg)
 
+Actually this diagram is not strictly fit into the definition of computational graph what I defined above.  
+Because this diagram do not have single output node explicitly.  
+But if we give up some operations including backward, then we could implment this diagram also.  
+
 #### example: MLP
 
 ##### neural network diagram
