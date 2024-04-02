@@ -10,6 +10,8 @@ A computational graph is a data structure with states denoted by abow diagram.
 
 I think basically, we could reduce some problem into an optimization problem with data.  
 A computational graph in deep learning is an implmentation of that optimization problem.  
+What I mean is, a computation graph with reverse-mode autodiff and gradient-descent algorithm,  
+we could always minimize output variable w.r.t. some input variables.  
 
 #### bolts and nuts
 variables and functions form a connected directed-acyclic graph with unique sink output variable node.  
@@ -33,7 +35,7 @@ If we treat variables as tensors, then this datastructure includes not only scal
 | backward | calculate gradients of output-variable w.r.t. variables in reverse-topological order using chain-rule from output variable's gradient(=1 always)|
 | update | update some variables based on gradients (ex. variable = variable - learning_rate * gradient) |
 | reversed-mode autodiff | apply forward and then backward sequentially |
-| **minimize output variable w.r.t. some input variables** | apply reverse-mode autodiff and then update sequentially serveral times until output variable became sufficiently small. |
+| **gradient descent** | apply reverse-mode autodiff and then update sequentially serveral times until output variable became sufficiently small. |
 
 #### example: percpetron
 
