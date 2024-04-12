@@ -14,7 +14,7 @@ by using reverse-mode autodiff and gradient-descent algorithm.
 #### bolts and nuts
 variables and functions form a connected directed-acyclic graph with unique sink output variable node.  
 If we treat variables as tensors, then this datastructure includes not only scalars but also includes vectorization.  
-But as far as I know, all oprations in computational graphs dealing with AI are scalar-wise operations. 
+But as far as I know, all oprations in computational graphs dealing with AI are scalar-wise operations.  
 i.e., all operations could be reduced into scalar-wise operations.  
 
 | item | description |
